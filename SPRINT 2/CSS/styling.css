@@ -1,0 +1,104 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    background-color: #2c3339;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #171b1e;
+}
+
+/*H1 AND H2 FORMATTING */
+
+h1{
+    position: absolute;
+    padding: 10px;
+    float: left;        /* text alignment */
+    margin-left: 2%;
+    margin-top: 10px;
+    font-family: 'Syncopate', cursive;
+    color: cyan;
+}
+h2{
+    margin-top: 35px;
+    margin-left: 3%;
+    font-family: 'Open Sans', sans-serif;
+    font-style: bold;
+    color: whitesmoke;
+}
+
+/* FORMATTING FOR OTHER ELEMENTS */
+
+span{
+    color: whitesmoke;
+}
+ul{
+    width: auto;
+    float: right;
+    margin-top: 8px;
+}
+p{
+    margin-left: 3%;
+    margin-right: 50%;
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+}
+li{
+    display: inline-block;  /* this one keeps the navbar in a rectangle */
+    padding: 15px 30px;
+}
+button{
+    margin-left: 3%;
+    background-color: #2c3339;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    border: none;
+    color: whitesmoke;
+}
+
+/* FORMATTING FOR THE NAVBAR LINKS */
+
+a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover{
+    color: cyan;
+    transition: 0.5s;
+}
+
+
+/* FORMATTING FOR CLASSES, IDS, ETC. */
+.onlyhalf{
+    margin-right: 60%;
+    line-height: 40px;
+}
+.icon{
+    width: 6%;
+    margin-left: 3%;
+    margin-right: 2%;
+    float: left;
+}
+.art{
+    width: 900px;
+    margin-left: 3%;
+}
+.sizeup{
+    font-size: 1.2vw;
+}
+.centered{
+    margin-left: 20%;
+}
+.homeimage{
+    float: right;
+    size: 100%;
+    margin-right: 5%;
+    margin-bottom: 0%;
+}
+#more{
+    display: none;
+}
